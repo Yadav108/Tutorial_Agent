@@ -9,16 +9,15 @@ from PyQt6.QtWidgets import (
 )
 from PyQt6.QtCore import Qt, pyqtSignal, pyqtSlot, QTimer, QSize
 from PyQt6.QtGui import QAction, QIcon, QPixmap
-
 from .widgets import (
     LanguageCard,
     ContentViewer,
-    CodeEditor,
     ProgressViewer,
     SearchBar
 )
 from .dialogs import SettingsDialog, TutorialDialog
 from content.models import Topic, Language
+from utils.simple_notifications import show_success, show_error
 from content import ContentManager
 
 logger = logging.getLogger('TutorialAgent')
@@ -264,8 +263,6 @@ class MainWindow(QMainWindow):
             logger.error(f"Error setting up status bar: {str(e)}", exc_info=True)
             raise
 
-
-
     def create_content_area(self):
         """Create the main content area with content viewer and code editor."""
         try:
@@ -283,9 +280,43 @@ class MainWindow(QMainWindow):
             self.content_viewer.start_exercise.connect(self.start_exercise)
             content_splitter.addWidget(self.content_viewer)
 
-            # Add code editor
-            self.code_editor = CodeEditor()
-            self.code_editor.code_executed.connect(self.handle_code_execution)
+            # Add professional code editor
+            try:
+                from .widgets.enhanced_code_editor import ProfessionalCodeEditor
+                self.code_editor = ProfessionalCodeEditor()
+                self.code_editor.code_executed.connect(self.handle_code_execution)
+                logger.debug("Professional code editor loaded successfully")
+            except ImportError as e:
+                logger.warning(f"Could not import professional code editor: {e}")
+                # Fallback to simple editor
+                from PyQt6.QtWidgets import QTextEdit
+                self.code_editor = QTextEdit()
+                self.code_editor.setPlainText("# Your code here...\nprint('Hello, World!')")
+                self.code_editor.setStyleSheet("""
+                    QTextEdit {
+                        background-color: #1e1e1e;
+                        color: #d4d4d4;
+                        font-family: 'Consolas', 'Courier New', monospace;
+                        font-size: 11pt;
+                        border: 1px solid #3e3e3e;
+                    }
+                """)
+
+                # Add simple methods to the code editor
+                def set_language(language):
+                    pass  # Simple placeholder
+
+                def set_code(code):
+                    self.code_editor.setPlainText(code)
+
+                def run_code():
+                    pass  # Simple placeholder
+
+                # Attach methods to the editor
+                self.code_editor.set_language = set_language
+                self.code_editor.set_code = set_code
+                self.code_editor.run_code = run_code
+
             content_splitter.addWidget(self.code_editor)
 
             # Set splitter proportions
@@ -446,8 +477,9 @@ class MainWindow(QMainWindow):
                 # Update content viewer with the language data
                 self.content_viewer.load_content(viewer_data)
 
-                # Update code editor
-                self.code_editor.set_language(language)
+                # Update code editor language
+                if hasattr(self.code_editor, 'set_language'):
+                    self.code_editor.set_language(language.lower())
 
                 # Update progress viewer
                 # Create a dictionary of topic names and their progress
@@ -476,6 +508,9 @@ class MainWindow(QMainWindow):
                 self.status_label.setText(f"Loaded {language} content successfully")
                 logger.debug(f"Successfully loaded content for {language}")
 
+                # Show success notification
+                show_success(f"Loaded {language} successfully!", self)
+
             else:
                 raise ValueError(f"No content found for language: {language}")
 
@@ -485,8 +520,10 @@ class MainWindow(QMainWindow):
             logger.debug("Loading fallback content")
             fallback_content = self._get_fallback_content(language)
             self.content_viewer.load_content(fallback_content)
-            self.code_editor.set_language(language)
+            if hasattr(self.code_editor, 'set_language'):
+                self.code_editor.set_language(language.lower())
             self.status_label.setText(f"Loaded basic content for {language}")
+            show_error(f"Could not load full content for {language}", self)
 
     def _get_hello_world_code(self, language: str) -> str:
         """Get Hello World example for different languages."""
@@ -720,8 +757,10 @@ class MainWindow(QMainWindow):
     def run_code(self, code: str):
         """Execute code in the editor."""
         try:
-            self.code_editor.set_code(code)
-            self.code_editor.run_code()
+            if hasattr(self.code_editor, 'set_code'):
+                self.code_editor.set_code(code)
+            if hasattr(self.code_editor, 'run_code'):
+                self.code_editor.run_code()
         except Exception as e:
             logger.error(f"Error running code: {str(e)}", exc_info=True)
 
@@ -738,7 +777,9 @@ class MainWindow(QMainWindow):
     def start_exercise(self, exercise_data: dict):
         """Start a coding exercise."""
         try:
-            self.code_editor.set_code(exercise_data.get('starter_code', ''))
+            starter_code = exercise_data.get('starter_code', '')
+            if hasattr(self.code_editor, 'set_code'):
+                self.code_editor.set_code(starter_code)
             self.status_label.setText(f"Started exercise: {exercise_data['title']}")
         except Exception as e:
             logger.error(f"Error starting exercise: {str(e)}", exc_info=True)

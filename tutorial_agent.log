@@ -1,223 +1,303 @@
-2024-11-08 23:24:58,387 - TutorialAgent - INFO - Starting Tutorial Agent application
-2024-11-08 23:24:58,392 - TutorialAgent - INFO - Project root: C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent
-2024-11-08 23:24:58,392 - TutorialAgent - INFO - Assets directory: C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\assets\icons
-2024-11-08 23:24:58,518 - TutorialAgent - DEBUG - Initializing MainWindow
-2024-11-08 23:24:58,518 - TutorialAgent - DEBUG - Initializing ContentManager with directory: C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\content
-2024-11-08 23:24:58,518 - TutorialAgent - DEBUG - Ensuring content directory structure...
-2024-11-08 23:24:58,526 - TutorialAgent - DEBUG - Content directory structure verified
-2024-11-08 23:24:58,526 - TutorialAgent - DEBUG - Loading tutorial content
-2024-11-08 23:24:58,622 - TutorialAgent - DEBUG - Loaded Python content with 10 topics
-2024-11-08 23:24:58,622 - TutorialAgent - DEBUG - Loaded JavaScript content with 10 topics
-2024-11-08 23:24:58,622 - TutorialAgent - DEBUG - 
-=== Content Manager Debug Information ===
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG - Content directory: C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\content
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG - Number of languages loaded: 2
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG - 
-Language: Python (ID: python)
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG - Icon: python.svg
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG - Color: #3776AB
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG - Number of topics: 10
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG - 
-Topics:
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG - - Python Basics
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG -   Examples: 2
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG - - Control Flow
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG -   Examples: 3
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG - - Functions and Modules
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG -   Examples: 2
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG - - Data Structures
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG -   Examples: 2
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG - - Object-Oriented Programming
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG -   Examples: 2
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG - - File Handling
-2024-11-08 23:24:58,633 - TutorialAgent - DEBUG -   Examples: 2
-2024-11-08 23:24:58,635 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,635 - TutorialAgent - DEBUG - - Error Handling
-2024-11-08 23:24:58,635 - TutorialAgent - DEBUG -   Examples: 2
-2024-11-08 23:24:58,635 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,635 - TutorialAgent - DEBUG - - Libraries and Packages
-2024-11-08 23:24:58,635 - TutorialAgent - DEBUG -   Examples: 2
-2024-11-08 23:24:58,635 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,635 - TutorialAgent - DEBUG - - Testing and Debugging
-2024-11-08 23:24:58,635 - TutorialAgent - DEBUG -   Examples: 2
-2024-11-08 23:24:58,635 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG - - Advanced Concepts
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG -   Examples: 4
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG - 
-Language: JavaScript (ID: javascript)
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG - Icon: javascript-icon.svg
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG - Color: #F7DF1E
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG - Number of topics: 10
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG - 
-Topics:
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG - - JavaScript Basics
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG -   Examples: 4
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG - - Functions and Scope
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG -   Examples: 4
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG - - Objects and Arrays
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG -   Examples: 2
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG - - DOM Manipulation
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG -   Examples: 2
-2024-11-08 23:24:58,637 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG - - Events and Event Handling
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG -   Examples: 2
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG - - Asynchronous JavaScript
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG -   Examples: 3
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG - - ES6+ Features
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG -   Examples: 5
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG -   Exercises: 4
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG - - Error Handling
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG -   Examples: 5
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG - - Working with APIs
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG -   Examples: 4
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG - - Modern JavaScript Development
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG -   Examples: 3
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG -   Exercises: 2
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG - 
-=======================================
-2024-11-08 23:24:58,639 - TutorialAgent - INFO - Loaded content for 2 languages
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG - Loaded user progress
-2024-11-08 23:24:58,639 - TutorialAgent - DEBUG - ContentManager initialization complete
-2024-11-08 23:24:58,882 - TutorialAgent - DEBUG - Toolbar setup complete
-2024-11-08 23:24:58,887 - TutorialAgent - DEBUG - Status bar setup complete
-2024-11-08 23:24:58,887 - TutorialAgent - DEBUG - Creating sidebar
-2024-11-08 23:24:58,889 - TutorialAgent - DEBUG - Found 2 languages
-2024-11-08 23:24:58,889 - TutorialAgent - DEBUG - Creating card for language: Python
-2024-11-08 23:24:58,889 - TutorialAgent - DEBUG - Creating LanguageCard for Python
-2024-11-08 23:24:58,912 - TutorialAgent - DEBUG - Created language card for Python
-2024-11-08 23:24:58,912 - TutorialAgent - DEBUG - Creating card for language: JavaScript
-2024-11-08 23:24:58,912 - TutorialAgent - DEBUG - Creating LanguageCard for JavaScript
-2024-11-08 23:24:58,912 - TutorialAgent - WARNING - Could not load icon from assets/icons/javascript-icon.svg
-2024-11-08 23:24:58,912 - TutorialAgent - DEBUG - Created language card for JavaScript
-2024-11-08 23:24:58,912 - TutorialAgent - DEBUG - Initializing ProgressViewer
-2024-11-08 23:24:58,925 - TutorialAgent - INFO - Created sidebar with 2 language cards
-2024-11-08 23:24:58,978 - TutorialAgent - DEBUG - Initializing ContentViewer
-2024-11-08 23:24:58,982 - TutorialAgent - DEBUG - ContentViewer UI setup complete
-2024-11-08 23:24:59,029 - TutorialAgent - DEBUG - Content area creation complete
-2024-11-08 23:24:59,044 - TutorialAgent - DEBUG - UI initialization complete
-2024-11-08 23:24:59,045 - TutorialAgent - DEBUG - Debugging content loading...
-2024-11-08 23:24:59,045 - TutorialAgent - DEBUG - Content manager initialized: True
-2024-11-08 23:24:59,045 - TutorialAgent - DEBUG - Available languages: ['python', 'javascript']
-2024-11-08 23:24:59,045 - TutorialAgent - DEBUG - 
-Checking language: python
-2024-11-08 23:24:59,045 - TutorialAgent - DEBUG - Name: Python
-2024-11-08 23:24:59,045 - TutorialAgent - DEBUG - Topics count: 10
-2024-11-08 23:24:59,045 - TutorialAgent - DEBUG - 
-Topic 1: Python Basics
-2024-11-08 23:24:59,045 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,045 - TutorialAgent - DEBUG - Examples count: 2
-2024-11-08 23:24:59,045 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,045 - TutorialAgent - DEBUG - 
-Topic 2: Control Flow
-2024-11-08 23:24:59,047 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,047 - TutorialAgent - DEBUG - Examples count: 3
-2024-11-08 23:24:59,047 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,047 - TutorialAgent - DEBUG - 
-Topic 3: Functions and Modules
-2024-11-08 23:24:59,047 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,047 - TutorialAgent - DEBUG - Examples count: 2
-2024-11-08 23:24:59,047 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,047 - TutorialAgent - DEBUG - 
-Topic 4: Data Structures
-2024-11-08 23:24:59,047 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,047 - TutorialAgent - DEBUG - Examples count: 2
-2024-11-08 23:24:59,047 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - 
-Topic 5: Object-Oriented Programming
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - Examples count: 2
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - 
-Topic 6: File Handling
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - Examples count: 2
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - 
-Topic 7: Error Handling
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - Examples count: 2
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - 
-Topic 8: Libraries and Packages
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,048 - TutorialAgent - DEBUG - Examples count: 2
-2024-11-08 23:24:59,050 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,050 - TutorialAgent - DEBUG - 
-Topic 9: Testing and Debugging
-2024-11-08 23:24:59,050 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,050 - TutorialAgent - DEBUG - Examples count: 2
-2024-11-08 23:24:59,050 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,050 - TutorialAgent - DEBUG - 
-Topic 10: Advanced Concepts
-2024-11-08 23:24:59,050 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,050 - TutorialAgent - DEBUG - Examples count: 4
-2024-11-08 23:24:59,051 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,051 - TutorialAgent - DEBUG - 
+2025-08-13 22:30:05,368 - TutorialAgent - INFO - Starting Tutorial Agent application
+2025-08-13 22:30:05,371 - TutorialAgent - INFO - Project root: C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent
+2025-08-13 22:30:05,371 - TutorialAgent - INFO - Assets directory: C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\assets\icons
+2025-08-13 22:30:05,456 - TutorialAgent - DEBUG - Initializing MainWindow
+2025-08-13 22:30:05,462 - TutorialAgent.ContentManager - INFO - ContentManager initialized with content_dir: C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\content
+2025-08-13 22:30:05,592 - TutorialAgent - DEBUG - Toolbar setup complete
+2025-08-13 22:30:05,598 - TutorialAgent - DEBUG - Status bar setup complete
+2025-08-13 22:30:05,598 - TutorialAgent - DEBUG - Creating sidebar
+2025-08-13 22:30:05,627 - TutorialAgent.ContentManager - DEBUG - Loading languages from Python files
+2025-08-13 22:30:05,630 - TutorialAgent.ContentManager - WARNING - No content files found in C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\content\languages\cpp
+2025-08-13 22:30:05,635 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Async Programming
+2025-08-13 22:30:05,648 - TutorialAgent.ContentManager - DEBUG - Loaded topic: C# Basics
+2025-08-13 22:30:05,656 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Classes
+2025-08-13 22:30:05,660 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Collections
+2025-08-13 22:30:05,665 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Control Structures
+2025-08-13 22:30:05,671 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Data Types
+2025-08-13 22:30:05,673 - TutorialAgent.ContentManager - DEBUG - Loaded topic: File I/O (Input/Output)
+2025-08-13 22:30:05,677 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Inheritance
+2025-08-13 22:30:05,681 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Inheritance
+2025-08-13 22:30:05,688 - TutorialAgent.ContentManager - DEBUG - Loaded topic: LINQ (Language Integrated Query)
+2025-08-13 22:30:05,692 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Methods and Parameters
+2025-08-13 22:30:05,698 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Windows Forms
+2025-08-13 22:30:05,698 - TutorialAgent.ContentManager - DEBUG - Loaded language: C#
+2025-08-13 22:30:05,698 - TutorialAgent.ContentManager - WARNING - No content files found in C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\content\languages\java
+2025-08-13 22:30:05,704 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Asynchronous JavaScript
+2025-08-13 22:30:05,722 - TutorialAgent.ContentManager - DEBUG - Loaded topic: JavaScript Basics
+2025-08-13 22:30:05,726 - TutorialAgent.ContentManager - DEBUG - Loaded topic: DOM Manipulation
+2025-08-13 22:30:05,739 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Error Handling
+2025-08-13 22:30:05,749 - TutorialAgent.ContentManager - DEBUG - Loaded topic: ES6+ Features
+2025-08-13 22:30:05,752 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Events and Event Handling
+2025-08-13 22:30:05,768 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Functions and Scope
+2025-08-13 22:30:05,772 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Modern JavaScript Development
+2025-08-13 22:30:05,778 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Objects and Arrays
+2025-08-13 22:30:05,781 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Working with APIs
+2025-08-13 22:30:05,781 - TutorialAgent.ContentManager - DEBUG - Loaded language: JavaScript
+2025-08-13 22:30:05,787 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Advanced Concepts
+2025-08-13 22:30:05,834 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Python Basics
+2025-08-13 22:30:05,836 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Control Flow
+2025-08-13 22:30:05,836 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Data Structures
+2025-08-13 22:30:05,886 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Error Handling
+2025-08-13 22:30:05,893 - TutorialAgent.ContentManager - DEBUG - Loaded topic: File Handling
+2025-08-13 22:30:05,924 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Functions and Modules
+2025-08-13 22:30:05,929 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Libraries and Packages
+2025-08-13 22:30:05,933 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Object-Oriented Programming
+2025-08-13 22:30:05,936 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Testing and Debugging
+2025-08-13 22:30:05,936 - TutorialAgent.ContentManager - DEBUG - Loaded language: Python
+2025-08-13 22:30:05,936 - TutorialAgent.ContentManager - INFO - Loaded 3 languages
+2025-08-13 22:30:05,936 - TutorialAgent - DEBUG - Found 3 languages
+2025-08-13 22:30:05,936 - TutorialAgent - DEBUG - Creating card for language: C#
+2025-08-13 22:30:05,940 - TutorialAgent - DEBUG - Creating LanguageCard for C#
+2025-08-13 22:30:05,973 - TutorialAgent - DEBUG - Created language card for C#
+2025-08-13 22:30:05,973 - TutorialAgent - DEBUG - Creating card for language: JavaScript
+2025-08-13 22:30:05,973 - TutorialAgent - DEBUG - Creating LanguageCard for JavaScript
+2025-08-13 22:30:05,973 - TutorialAgent - DEBUG - Created language card for JavaScript
+2025-08-13 22:30:05,973 - TutorialAgent - DEBUG - Creating card for language: Python
+2025-08-13 22:30:05,973 - TutorialAgent - DEBUG - Creating LanguageCard for Python
+2025-08-13 22:30:05,980 - TutorialAgent - DEBUG - Created language card for Python
+2025-08-13 22:30:05,980 - TutorialAgent - DEBUG - Initializing ProgressViewer
+2025-08-13 22:30:05,983 - TutorialAgent - INFO - Created sidebar with 3 language cards
+2025-08-13 22:30:05,994 - TutorialAgent - DEBUG - Initializing ContentViewer
+2025-08-13 22:30:05,999 - TutorialAgent - DEBUG - ContentViewer UI setup complete
+2025-08-13 22:30:06,640 - TutorialAgent - DEBUG - Professional code editor loaded successfully
+2025-08-13 22:30:06,961 - TutorialAgent - DEBUG - Content area creation complete
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - UI initialization complete
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - Debugging content loading...
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - Content manager initialized: True
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - Available languages: ['csharp', 'javascript', 'python']
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - 
+Checking language: csharp
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - Name: C#
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - Topics count: 12
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - 
+Topic 1: Async Programming
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - 
+Topic 2: C# Basics
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,970 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - 
+Topic 3: Classes
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - 
+Topic 4: Collections
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - 
+Topic 5: Control Structures
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Examples count: 3
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - 
+Topic 6: Data Types
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - 
+Topic 7: File I/O (Input/Output)
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - 
+Topic 8: Inheritance
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - 
+Topic 9: Inheritance
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - 
+Topic 10: LINQ (Language Integrated Query)
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - 
+Topic 11: Methods and Parameters
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Examples count: 3
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - 
+Topic 12: Windows Forms
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - 
 Checking language: javascript
-2024-11-08 23:24:59,051 - TutorialAgent - DEBUG - Name: JavaScript
-2024-11-08 23:24:59,051 - TutorialAgent - DEBUG - Topics count: 10
-2024-11-08 23:24:59,051 - TutorialAgent - DEBUG - 
-Topic 1: JavaScript Basics
-2024-11-08 23:24:59,051 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,051 - TutorialAgent - DEBUG - Examples count: 4
-2024-11-08 23:24:59,051 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,052 - TutorialAgent - DEBUG - 
-Topic 2: Functions and Scope
-2024-11-08 23:24:59,052 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,052 - TutorialAgent - DEBUG - Examples count: 4
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - 
-Topic 3: Objects and Arrays
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Examples count: 2
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - 
-Topic 4: DOM Manipulation
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Examples count: 2
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - 
-Topic 5: Events and Event Handling
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Examples count: 2
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - 
-Topic 6: Asynchronous JavaScript
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Examples count: 3
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - 
-Topic 7: ES6+ Features
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Examples count: 5
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Exercises count: 4
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - 
-Topic 8: Error Handling
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Examples count: 5
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - 
-Topic 9: Working with APIs
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Examples count: 4
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - 
-Topic 10: Modern JavaScript Development
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Has content: True
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Examples count: 3
-2024-11-08 23:24:59,061 - TutorialAgent - DEBUG - Exercises count: 2
-2024-11-08 23:24:59,072 - TutorialAgent - DEBUG - MainWindow initialization complete
-2024-11-08 23:24:59,376 - TutorialAgent - INFO - Application started successfully
+2025-08-13 22:30:06,972 - TutorialAgent - DEBUG - Name: JavaScript
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Topics count: 10
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 1: Asynchronous JavaScript
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 3
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 2: JavaScript Basics
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 4
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 3: DOM Manipulation
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 4: Error Handling
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 5
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 5: ES6+ Features
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 5
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Exercises count: 4
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 6: Events and Event Handling
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 7: Functions and Scope
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 4
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 8: Modern JavaScript Development
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 3
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 9: Objects and Arrays
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 10: Working with APIs
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 4
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Checking language: python
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Name: Python
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Topics count: 10
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 1: Advanced Concepts
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 4
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 2: Python Basics
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 3: Control Flow
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 3
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - 
+Topic 4: Data Structures
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:06,986 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - 
+Topic 5: Error Handling
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - 
+Topic 6: File Handling
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - 
+Topic 7: Functions and Modules
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - 
+Topic 8: Libraries and Packages
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - 
+Topic 9: Object-Oriented Programming
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - 
+Topic 10: Testing and Debugging
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Has content: True
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Examples count: 2
+2025-08-13 22:30:07,002 - TutorialAgent - DEBUG - Exercises count: 2
+2025-08-13 22:30:07,008 - TutorialAgent - DEBUG - MainWindow initialization complete
+2025-08-13 22:30:07,137 - TutorialAgent - INFO - Application started successfully
+2025-08-13 22:30:08,043 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:30:20,908 - TutorialAgent - DEBUG - Language card clicked: Python
+2025-08-13 22:30:20,908 - TutorialAgent - DEBUG - Language selected: Python
+2025-08-13 22:30:20,908 - TutorialAgent - DEBUG - Setting C# card selection state to False
+2025-08-13 22:30:20,908 - TutorialAgent - DEBUG - Setting JavaScript card selection state to False
+2025-08-13 22:30:20,908 - TutorialAgent - DEBUG - Setting Python card selection state to True
+2025-08-13 22:30:20,908 - TutorialAgent - DEBUG - Loading content into viewer
+2025-08-13 22:30:20,908 - TutorialAgent - DEBUG - Clearing content viewer
+2025-08-13 22:30:20,921 - TutorialAgent - DEBUG - Loading content for topic: Advanced Concepts
+2025-08-13 22:30:20,921 - TutorialAgent - DEBUG - Loading content for topic: Python Basics
+2025-08-13 22:30:20,921 - TutorialAgent - DEBUG - Loading content for topic: Control Flow
+2025-08-13 22:30:20,921 - TutorialAgent - DEBUG - Loading content for topic: Data Structures
+2025-08-13 22:30:20,921 - TutorialAgent - DEBUG - Loading content for topic: Error Handling
+2025-08-13 22:30:20,921 - TutorialAgent - DEBUG - Loading content for topic: File Handling
+2025-08-13 22:30:20,921 - TutorialAgent - DEBUG - Loading content for topic: Functions and Modules
+2025-08-13 22:30:20,921 - TutorialAgent - DEBUG - Loading content for topic: Libraries and Packages
+2025-08-13 22:30:20,921 - TutorialAgent - DEBUG - Loading content for topic: Object-Oriented Programming
+2025-08-13 22:30:20,936 - TutorialAgent - DEBUG - Loading content for topic: Testing and Debugging
+2025-08-13 22:30:20,937 - TutorialAgent - DEBUG - Content loaded successfully
+2025-08-13 22:30:20,937 - TutorialAgent - DEBUG - Updating progress for Python
+2025-08-13 22:30:20,937 - TutorialAgent - DEBUG - Setting Python card progress to 0
+2025-08-13 22:30:20,937 - TutorialAgent - DEBUG - Successfully loaded content for Python
+2025-08-13 22:30:20,952 - TutorialAgent.Notifications - INFO - Success: Loaded Python successfully!
+2025-08-13 22:30:22,969 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:30:25,379 - TutorialAgent.Notifications - INFO - Success: Code executed successfully!
+2025-08-13 22:30:38,668 - TutorialAgent - DEBUG - Language card clicked: Python
+2025-08-13 22:30:38,668 - TutorialAgent - DEBUG - Language selected: Python
+2025-08-13 22:30:38,668 - TutorialAgent - DEBUG - Setting C# card selection state to False
+2025-08-13 22:30:38,668 - TutorialAgent - DEBUG - Setting JavaScript card selection state to False
+2025-08-13 22:30:38,668 - TutorialAgent - DEBUG - Setting Python card selection state to True
+2025-08-13 22:30:38,668 - TutorialAgent - DEBUG - Loading content into viewer
+2025-08-13 22:30:38,668 - TutorialAgent - DEBUG - Clearing content viewer
+2025-08-13 22:30:38,679 - TutorialAgent - DEBUG - Loading content for topic: Advanced Concepts
+2025-08-13 22:30:38,679 - TutorialAgent - DEBUG - Loading content for topic: Python Basics
+2025-08-13 22:30:38,679 - TutorialAgent - DEBUG - Loading content for topic: Control Flow
+2025-08-13 22:30:38,679 - TutorialAgent - DEBUG - Loading content for topic: Data Structures
+2025-08-13 22:30:38,679 - TutorialAgent - DEBUG - Loading content for topic: Error Handling
+2025-08-13 22:30:38,679 - TutorialAgent - DEBUG - Loading content for topic: File Handling
+2025-08-13 22:30:38,691 - TutorialAgent - DEBUG - Loading content for topic: Functions and Modules
+2025-08-13 22:30:38,691 - TutorialAgent - DEBUG - Loading content for topic: Libraries and Packages
+2025-08-13 22:30:38,691 - TutorialAgent - DEBUG - Loading content for topic: Object-Oriented Programming
+2025-08-13 22:30:38,691 - TutorialAgent - DEBUG - Loading content for topic: Testing and Debugging
+2025-08-13 22:30:38,691 - TutorialAgent - DEBUG - Content loaded successfully
+2025-08-13 22:30:38,691 - TutorialAgent - DEBUG - Updating progress for Python
+2025-08-13 22:30:38,691 - TutorialAgent - DEBUG - Setting Python card progress to 0
+2025-08-13 22:30:38,691 - TutorialAgent - DEBUG - Successfully loaded content for Python
+2025-08-13 22:30:38,707 - TutorialAgent.Notifications - INFO - Success: Loaded Python successfully!
+2025-08-13 22:30:40,722 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:30:45,755 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:30:59,959 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:31:07,818 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:31:12,836 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:31:21,829 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:31:27,506 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:31:30,280 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:31:34,886 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:31:37,339 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:31:43,639 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:31:47,625 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:31:51,736 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-13 22:31:52,039 - TutorialAgent.Notifications - INFO - Success: Code executed successfully!
+2025-08-13 22:32:16,912 - TutorialAgent.ContentManager - DEBUG - User progress saved
