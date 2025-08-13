@@ -1,3 +1,4 @@
+#gui\widgets\_init.py
 from .content_viewer import ContentViewer
 from .language_card import LanguageCard
 from .progress_viewer import ProgressViewer

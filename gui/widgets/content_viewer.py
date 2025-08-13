@@ -1,3 +1,4 @@
+#gui\widgets\content_viewer.py
 import logging
 from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton,
