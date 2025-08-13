@@ -25,7 +25,7 @@ An interactive learning platform for multiple programming languages with a focus
 
 1. Clone the repository or download the source code:
 ```bash
-git clone https://github.com/yourusername/tutorial-agent.git
+git clone https://github.com/Yadav108/tutorial-agent.git
 cd tutorial-agent
 ```
 
