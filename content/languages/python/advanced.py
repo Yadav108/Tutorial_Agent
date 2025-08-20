@@ -1,6 +1,7 @@
-from content.models import Topic, Example, Exercise
+from content.legacy_models import Topic, Exercise
+from content.models import Example
 
-def create_advanced_concepts_content() -> Topic:
+def create() -> Topic:
     """Create and return Python advanced concepts tutorial content."""
     return Topic(
         title="Advanced Concepts",

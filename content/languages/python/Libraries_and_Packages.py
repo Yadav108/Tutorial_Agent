@@ -1,6 +1,7 @@
-from content.models import Topic, Example, Exercise
+from content.legacy_models import Topic, Exercise
+from content.models import Example
 
-def create_libraries_and_packages_content() -> Topic:
+def create() -> Topic:
     """Create and return Python libraries and packages tutorial content."""
     return Topic(
         title="Libraries and Packages",

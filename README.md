@@ -1,97 +1,230 @@
-qq# Programming Tutorial Agent
+# Tutorial Agent - Interactive Programming Learning Platform
 
-An interactive learning platform for multiple programming languages with a focus on Python, C++, C#, and Java.
+🚀 **A comprehensive, modern learning platform for multiple programming languages**
 
-## Features
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![PyQt6](https://img.shields.io/badge/GUI-PyQt6-green)](https://pypi.org/project/PyQt6/)
 
-- 📚 Interactive tutorials for multiple programming languages
-- 💻 Built-in code editor with syntax highlighting
-- ✅ Interactive quizzes and assessments
-- 📊 Progress tracking and analytics
-- 🎯 Achievement system
-- 🌙 Light/Dark theme support
-- 📱 Responsive design
-- 🔄 Auto-save functionality
+An advanced interactive learning platform designed for programming education with support for Python, C++, C#, Java, and JavaScript. Features comprehensive tutorials, interactive code execution, progress tracking, and a modern user interface.
 
-## Installation
+## ✨ Key Features
+
+### 🎓 **Comprehensive Learning Experience**
+- **Multi-Language Support**: Python, C++, C#, Java, JavaScript with extensible architecture
+- **Structured Learning Paths**: Carefully designed curricula from beginner to advanced
+- **Interactive Tutorials**: Step-by-step lessons with practical examples
+- **Hands-on Exercises**: Coding challenges with automated validation
+- **Quiz System**: Multiple choice, code completion, and interactive assessments
+
+### 💻 **Advanced Code Editor**
+- **Professional IDE Experience**: Syntax highlighting, auto-completion, error detection
+- **Multi-Language Support**: Language-specific features and tools
+- **Code Execution**: Run and test code directly in the application
+- **Project Templates**: Quick-start templates for different languages
+- **Version Control Integration**: Git support for project management
+
+### 📊 **Progress Tracking & Analytics**
+- **Detailed Progress Reports**: Track learning journey across all languages
+- **Achievement System**: Unlock badges and milestones
+- **Performance Analytics**: Identify strengths and areas for improvement
+- **Learning Streaks**: Stay motivated with daily progress tracking
+- **Custom Goals**: Set personal learning objectives
+
+### 🎨 **Modern User Interface**
+- **Dark/Light Themes**: Customizable appearance with multiple themes
+- **Responsive Design**: Optimized for different screen sizes
+- **Accessibility**: WCAG-compliant design for inclusive learning
+- **Customizable Layout**: Personalize workspace to your preferences
+- **Multi-Language UI**: Support for multiple interface languages
+
+## 🚀 Quick Start
 
 ### Prerequisites
 
-- Python 3.8 or higher
-- pip (Python package installer)
-- Git (optional, for cloning the repository)
+- **Python 3.8 or higher** - [Download Python](https://www.python.org/downloads/)
+- **pip** - Python package installer (included with Python)
+- **Git** - Version control system (optional but recommended)
 
-### Setup
+### Installation Options
 
-1. Clone the repository or download the source code:
+#### Option 1: Automated Setup (Recommended)
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Yadav108/tutorial-agent.git
+   cd tutorial-agent
+   ```
+
+2. **Run the setup script**:
+   ```bash
+   python setup_project.py
+   ```
+   
+   This will:
+   - Check system requirements
+   - Create necessary directories
+   - Install dependencies
+   - Setup default configuration
+   - Create placeholder assets
+   - Run basic validation tests
+
+3. **Start the application**:
+   ```bash
+   python run.py
+   ```
+
+#### Option 2: Manual Setup
+
+1. **Clone and navigate**:
+   ```bash
+   git clone https://github.com/Yadav108/tutorial-agent.git
+   cd tutorial-agent
+   ```
+
+2. **Create virtual environment**:
+   ```bash
+   # Windows
+   python -m venv venv
+   venv\Scripts\activate
+
+   # Linux/macOS
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the application**:
+   ```bash
+   python run.py
+   ```
+
+### 🎯 First Launch
+
+On first launch, the application will:
+- Create user configuration files
+- Initialize the database
+- Set up default preferences
+- Show the welcome tutorial
+
+### 📋 Command Line Options
+
 ```bash
-git clone https://github.com/Yadav108/tutorial-agent.git
-cd tutorial-agent
-```
-
-2. Create and activate a virtual environment (recommended):
-```bash
-# Windows
-python -m venv venv
-venv\Scripts\activate
-
-# Linux/macOS
-python3 -m venv venv
-source venv/bin/activate
-```
-
-3. Install required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-### Running the Application
-
-1. Start the application:
-```bash
+# Standard launch
 python run.py
+
+# Debug mode with verbose logging
+python run.py --debug
+
+# Reset all settings to defaults
+python run.py --reset-settings
+
+# Use custom configuration file
+python run.py --config /path/to/config.json
+
+# Show version information
+python run.py --version
+
+# Show help
+python run.py --help
 ```
 
-## Project Structure
+## 📁 Enhanced Project Structure
 
 ```
-tutorial_agent/
-├── requirements.txt        # Project dependencies
-├── main.py                # Main application entry point
-├── run.py                 # Application launcher
+Tutorial_Agent/
+├── 📋 Project Configuration
+│   ├── run.py                    # 🚀 Main application launcher (enhanced)
+│   ├── __main__.py              # 🎯 Module entry point
+│   ├── setup_project.py         # ⚙️ Automated project setup
+│   ├── requirements.txt         # 📦 Dependencies
+│   └── .gitignore               # 🚫 Version control exclusions
 │
-├── config/                # Configuration files
-│   ├── __init__.py
-│   └── settings.py        # Application settings
+├── 📚 Core Application
+│   ├── tutorial_agent/          # 🏗️ Main package
+│   │   ├── __init__.py
+│   │   ├── core/                # 🧠 Core business logic
+│   │   └── services/            # 🔧 Service layer
+│   │
+│   ├── gui/                     # 🖥️ User Interface
+│   │   ├── main_window.py       # 🏠 Main window (enhanced)
+│   │   ├── widgets/             # 🧩 Custom UI components
+│   │   ├── dialogs/             # 💬 Dialog windows
+│   │   └── helpers/             # 🛠️ UI utilities
+│   │
+│   ├── content/                 # 📖 Learning Content
+│   │   ├── models.py            # 🏗️ Enhanced data models
+│   │   ├── content_manager.py   # 📚 Content management
+│   │   ├── languages/           # 🌐 Language-specific content
+│   │   │   ├── python/
+│   │   │   ├── javascript/
+│   │   │   ├── csharp/
+│   │   │   ├── java/
+│   │   │   └── cpp/
+│   │   └── exercises/           # 💪 Coding exercises
+│   │
+│   ├── database/                # 🗄️ Data Persistence
+│   │   ├── models/              # 📊 Database models
+│   │   ├── migrations/          # 🔄 Schema changes
+│   │   └── db_handler.py        # 🔧 Database operations
+│   │
+│   ├── services/                # 🔧 Business Services
+│   │   ├── auth_service.py      # 🔐 Authentication
+│   │   ├── content_service.py   # 📚 Content delivery
+│   │   ├── progress_service.py  # 📊 Progress tracking
+│   │   └── quiz_service.py      # ❓ Quiz management
+│   │
+│   └── utils/                   # 🛠️ Utilities
+│       ├── error_handler.py     # 🚨 Enhanced error handling
+│       ├── logging_setup.py     # 📝 Logging configuration
+│       ├── notifications.py     # 📢 User notifications
+│       └── helpers/             # 🧰 Helper functions
 │
-├── database/              # Database handling
-│   ├── __init__.py
-│   └── db_handler.py      # Database operations
+├── 🎨 Assets & Configuration
+│   ├── assets/                  # 🎭 Application assets
+│   │   ├── icons/               # 🎯 Language & UI icons
+│   │   ├── images/              # 🖼️ Images & graphics
+│   │   └── styles/              # 🎨 Themes & styling
+│   │
+│   ├── config/                  # ⚙️ Configuration
+│   │   ├── settings.py          # 📋 Basic settings
+│   │   ├── settings_manager.py  # 🔧 Advanced settings management
+│   │   ├── constants.py         # 📐 Application constants
+│   │   └── default_settings.json
+│   │
+│   ├── logs/                    # 📝 Application logs
+│   ├── cache/                   # 🗄️ Cached data
+│   └── data/                    # 💾 User data
 │
-├── content/               # Tutorial content
-│   ├── python/           # Python tutorials
-│   ├── cpp/              # C++ tutorials
-│   ├── csharp/           # C# tutorials
-│   └── java/             # Java tutorials
+├── 🧪 Quality Assurance
+│   ├── tests/                   # 🧪 Test suite
+│   │   ├── test_gui/
+│   │   ├── test_services/
+│   │   ├── test_utils/
+│   │   └── conftest.py
+│   │
+│   └── docs/                    # 📚 Documentation
+│       ├── user_guide/
+│       ├── developer_guide/
+│       └── api/
 │
-├── gui/                   # GUI components
-│   ├── __init__.py
-│   ├── main_window.py    # Main application window
-│   ├── sidebar.py        # Navigation sidebar
-│   ├── content_viewer.py # Content display
-│   ├── code_editor.py    # Code editor
-│   └── quiz_widget.py    # Quiz interface
-│
-├── utils/                 # Utility functions
-│   ├── __init__.py
-│   ├── content_loader.py # Content management
-│   └── quiz_handler.py   # Quiz management
-│
-└── assets/               # Application assets
-    ├── images/           # Icons and images
-    ├── styles/           # CSS/QSS styles
-    └── themes/           # Theme files
+└── 🚀 Development
+    └── venv/                    # 🐍 Python virtual environment
 ```
+
+### 🏗️ Architecture Highlights
+
+- **🧩 Modular Design**: Cleanly separated concerns with service layers
+- **🎯 Type Safety**: Full type hints throughout the codebase
+- **🚨 Error Handling**: Comprehensive error handling and user feedback
+- **📊 Configuration Management**: Advanced settings with validation
+- **🧪 Testing Ready**: Structured for comprehensive testing
+- **📝 Logging**: Professional logging with rotation and levels
+- **🔧 Extensible**: Easy to add new languages and features
 
 ## Usage
 

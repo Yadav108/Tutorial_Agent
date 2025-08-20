@@ -1,7 +1,8 @@
-from content.models import Topic, Example, Exercise
+from content.legacy_models import Topic, Exercise
+from content.models import Example
 
 
-def create_testing_and_debugging_content() -> Topic:
+def create() -> Topic:
     """Create and return Python testing and debugging tutorial content."""
     return Topic(
         title="Testing and Debugging",

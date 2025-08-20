@@ -1,9 +1,10 @@
 """Python object-oriented programming tutorial content."""
 
-from content.models import Topic, Example, Exercise
+from content.legacy_models import Topic, Exercise
+from content.models import Example
 
 
-def create_object_oriented_programming_content() -> Topic:
+def create() -> Topic:
     """Create and return Python OOP tutorial content."""
     return Topic(
         title="Object-Oriented Programming",

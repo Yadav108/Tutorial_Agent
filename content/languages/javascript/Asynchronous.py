@@ -1,6 +1,7 @@
-from content.models import Topic, Example, Exercise
+from content.legacy_models import Topic, Exercise
+from content.models import Example
 
-def create_asynchronous_javascript_content() -> Topic:
+def create() -> Topic:
     """Create and return Asynchronous JavaScript tutorial content."""
     return Topic(
         title="Asynchronous JavaScript",

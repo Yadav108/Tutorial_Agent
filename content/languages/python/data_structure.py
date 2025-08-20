@@ -1,9 +1,10 @@
 """Python data structures tutorial content."""
 
-from content.models import Topic, Example, Exercise
+from content.legacy_models import Topic, Exercise
+from content.models import Example
 
 
-def create_data_structures_content() -> Topic:
+def create() -> Topic:
     """Create and return Python data structures tutorial content."""
     return Topic(
         title="Data Structures",

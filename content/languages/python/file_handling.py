@@ -1,9 +1,10 @@
 """Python file handling tutorial content."""
 
-from content.models import Topic, Example, Exercise
+from content.legacy_models import Topic, Exercise
+from content.models import Example
 
 
-def create_file_handling_content() -> Topic:
+def create() -> Topic:
     """Create and return Python file handling tutorial content."""
     return Topic(
         title="File Handling",

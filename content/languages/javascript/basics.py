@@ -1,7 +1,11 @@
-from content.models import Topic, Example, Exercise
+"""JavaScript basics tutorial content."""
 
-def create_javascript_basics_content() -> Topic:
-    """Create and return JavaScript Basics tutorial content."""
+from content.legacy_models import Topic, Exercise
+from content.models import Example
+
+
+def create() -> Topic:
+    """Create and return JavaScript basics tutorial content."""
     return Topic(
         title="JavaScript Basics",
         description="Learn the fundamentals of JavaScript, including variables, data types, functions, and control structures.",

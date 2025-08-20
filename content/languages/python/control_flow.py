@@ -1,9 +1,10 @@
 """Python control flow tutorial content."""
 
-from content.models import Topic, Example, Exercise
+from content.legacy_models import Topic, Exercise
+from content.models import Example
 
 
-def create_control_flow_content() -> Topic:
+def create() -> Topic:
     """Create and return Python control flow tutorial content."""
     return Topic(
         title="Control Flow",

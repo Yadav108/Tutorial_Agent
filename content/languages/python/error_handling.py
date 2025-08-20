@@ -1,9 +1,10 @@
 """Python error handling tutorial content."""
 
-from content.models import Topic, Example, Exercise
+from content.legacy_models import Topic, Exercise
+from content.models import Example
 
 
-def create_error_handling_content() -> Topic:
+def create() -> Topic:
     """Create and return Python error handling tutorial content."""
     return Topic(
         title="Error Handling",

@@ -1,162 +1,98 @@
-2025-08-14 03:23:16,849 - TutorialAgent - INFO - Starting Tutorial Agent application
-2025-08-14 03:23:16,852 - TutorialAgent - INFO - Project root: C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent
-2025-08-14 03:23:16,852 - TutorialAgent - INFO - Assets directory: C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\assets\icons
-2025-08-14 03:23:17,002 - TutorialAgent.ContentManager - INFO - ContentManager initialized with content_dir: C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\content
-2025-08-14 03:23:17,002 - TutorialAgent - DEBUG - Content manager initialized
-2025-08-14 03:23:17,267 - TutorialAgent - DEBUG - Enhanced toolbar setup complete
-2025-08-14 03:23:17,278 - TutorialAgent - DEBUG - Enhanced status bar setup complete
-2025-08-14 03:23:17,332 - TutorialAgent.ContentManager - DEBUG - Loading languages from Python files
-2025-08-14 03:23:17,334 - TutorialAgent.ContentManager - WARNING - No content files found in C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\content\languages\cpp
-2025-08-14 03:23:17,373 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Async Programming
-2025-08-14 03:23:17,405 - TutorialAgent.ContentManager - DEBUG - Loaded topic: C# Basics
-2025-08-14 03:23:17,481 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Classes
-2025-08-14 03:23:17,517 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Collections
-2025-08-14 03:23:17,540 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Control Structures
-2025-08-14 03:23:17,575 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Data Types
-2025-08-14 03:23:17,607 - TutorialAgent.ContentManager - DEBUG - Loaded topic: File I/O (Input/Output)
-2025-08-14 03:23:17,643 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Inheritance
-2025-08-14 03:23:17,673 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Inheritance
-2025-08-14 03:23:17,710 - TutorialAgent.ContentManager - DEBUG - Loaded topic: LINQ (Language Integrated Query)
-2025-08-14 03:23:17,738 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Methods and Parameters
-2025-08-14 03:23:17,777 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Windows Forms
-2025-08-14 03:23:17,777 - TutorialAgent.ContentManager - DEBUG - Loaded language: C#
-2025-08-14 03:23:17,780 - TutorialAgent.ContentManager - WARNING - No content files found in C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\content\languages\java
-2025-08-14 03:23:17,843 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Asynchronous JavaScript
-2025-08-14 03:23:17,869 - TutorialAgent.ContentManager - DEBUG - Loaded topic: JavaScript Basics
-2025-08-14 03:23:17,910 - TutorialAgent.ContentManager - DEBUG - Loaded topic: DOM Manipulation
-2025-08-14 03:23:17,941 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Error Handling
-2025-08-14 03:23:17,984 - TutorialAgent.ContentManager - DEBUG - Loaded topic: ES6+ Features
-2025-08-14 03:23:18,022 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Events and Event Handling
-2025-08-14 03:23:18,057 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Functions and Scope
-2025-08-14 03:23:18,087 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Modern JavaScript Development
-2025-08-14 03:23:18,123 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Objects and Arrays
-2025-08-14 03:23:18,165 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Working with APIs
-2025-08-14 03:23:18,165 - TutorialAgent.ContentManager - DEBUG - Loaded language: JavaScript
-2025-08-14 03:23:18,204 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Advanced Concepts
-2025-08-14 03:23:18,246 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Python Basics
-2025-08-14 03:23:18,270 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Control Flow
-2025-08-14 03:23:18,300 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Data Structures
-2025-08-14 03:23:18,342 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Error Handling
-2025-08-14 03:23:18,369 - TutorialAgent.ContentManager - DEBUG - Loaded topic: File Handling
-2025-08-14 03:23:18,417 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Functions and Modules
-2025-08-14 03:23:18,451 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Libraries and Packages
-2025-08-14 03:23:18,477 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Object-Oriented Programming
-2025-08-14 03:23:18,506 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Testing and Debugging
-2025-08-14 03:23:18,506 - TutorialAgent.ContentManager - DEBUG - Loaded language: Python
-2025-08-14 03:23:18,506 - TutorialAgent.ContentManager - INFO - Loaded 3 languages
-2025-08-14 03:23:18,506 - TutorialAgent - DEBUG - Found 3 languages
-2025-08-14 03:23:18,506 - TutorialAgent - DEBUG - Creating LanguageCard for C#
-2025-08-14 03:23:18,554 - TutorialAgent - DEBUG - Created language card for C#
-2025-08-14 03:23:18,554 - TutorialAgent - DEBUG - Creating LanguageCard for JavaScript
-2025-08-14 03:23:18,570 - TutorialAgent - DEBUG - Created language card for JavaScript
-2025-08-14 03:23:18,570 - TutorialAgent - DEBUG - Creating LanguageCard for Python
-2025-08-14 03:23:18,570 - TutorialAgent - DEBUG - Created language card for Python
-2025-08-14 03:23:18,570 - TutorialAgent - DEBUG - Initializing ProgressViewer
-2025-08-14 03:23:18,570 - TutorialAgent - INFO - Created sidebar with 3 language cards
-2025-08-14 03:23:20,959 - TutorialAgent - DEBUG - Initializing ContentViewer
-2025-08-14 03:23:20,961 - TutorialAgent - DEBUG - ContentViewer UI setup complete
-2025-08-14 03:23:21,018 - TutorialAgent - DEBUG - Professional code editor loaded
-2025-08-14 03:23:21,034 - TutorialAgent - DEBUG - Content area created successfully
-2025-08-14 03:23:21,042 - TutorialAgent - DEBUG - UI initialization complete
-2025-08-14 03:23:21,055 - TutorialAgent - INFO - MainWindow initialized successfully
-2025-08-14 03:23:21,394 - TutorialAgent - INFO - Application started successfully
-2025-08-14 03:23:21,398 - TutorialAgent - INFO - Application startup completed in 0.00 seconds
-2025-08-14 03:23:21,949 - TutorialAgent.TutorialDialog - INFO - Started tutorial: Welcome to Tutorial Agent
-2025-08-14 03:23:23,002 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
-2025-08-14 03:23:36,100 - TutorialAgent - INFO - Language selected: C#
-2025-08-14 03:23:36,100 - TutorialAgent - DEBUG - Setting C# card selection state to True
-2025-08-14 03:23:36,102 - TutorialAgent - DEBUG - Setting JavaScript card selection state to False
-2025-08-14 03:23:36,104 - TutorialAgent - DEBUG - Setting Python card selection state to False
-2025-08-14 03:23:36,355 - TutorialAgent - DEBUG - Loading content into viewer
-2025-08-14 03:23:36,355 - TutorialAgent - DEBUG - Clearing content viewer
-2025-08-14 03:23:36,355 - TutorialAgent - DEBUG - Loading content for topic: Async Programming
-2025-08-14 03:23:36,363 - TutorialAgent - DEBUG - Loading content for topic: C# Basics
-2025-08-14 03:23:36,367 - TutorialAgent - DEBUG - Loading content for topic: Classes
-2025-08-14 03:23:36,371 - TutorialAgent - DEBUG - Loading content for topic: Collections
-2025-08-14 03:23:36,376 - TutorialAgent - DEBUG - Loading content for topic: Control Structures
-2025-08-14 03:23:36,379 - TutorialAgent - DEBUG - Loading content for topic: Data Types
-2025-08-14 03:23:36,385 - TutorialAgent - DEBUG - Loading content for topic: File I/O (Input/Output)
-2025-08-14 03:23:36,387 - TutorialAgent - DEBUG - Loading content for topic: Inheritance
-2025-08-14 03:23:36,387 - TutorialAgent - DEBUG - Loading content for topic: Inheritance
-2025-08-14 03:23:36,399 - TutorialAgent - DEBUG - Loading content for topic: LINQ (Language Integrated Query)
-2025-08-14 03:23:36,404 - TutorialAgent - DEBUG - Loading content for topic: Methods and Parameters
-2025-08-14 03:23:36,404 - TutorialAgent - DEBUG - Loading content for topic: Windows Forms
-2025-08-14 03:23:36,412 - TutorialAgent - DEBUG - Content loaded successfully
-2025-08-14 03:23:36,412 - TutorialAgent - DEBUG - Updating progress for C#
-2025-08-14 03:23:36,429 - TutorialAgent - DEBUG - Setting C# card progress to 0
-2025-08-14 03:23:36,429 - TutorialAgent.Notifications - INFO - Success notification: Loaded C# successfully!
-2025-08-14 03:23:36,449 - TutorialAgent - INFO - Successfully loaded content for C#
-2025-08-14 03:23:38,160 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
-2025-08-14 03:24:07,351 - TutorialAgent - DEBUG - Language card clicked: JavaScript
-2025-08-14 03:24:07,351 - TutorialAgent - INFO - Language selected: JavaScript
-2025-08-14 03:24:07,359 - TutorialAgent - DEBUG - Setting C# card selection state to False
-2025-08-14 03:24:07,360 - TutorialAgent - DEBUG - Setting JavaScript card selection state to True
-2025-08-14 03:24:07,360 - TutorialAgent - DEBUG - Setting Python card selection state to False
-2025-08-14 03:24:07,554 - TutorialAgent - DEBUG - Loading content into viewer
-2025-08-14 03:24:07,554 - TutorialAgent - DEBUG - Clearing content viewer
-2025-08-14 03:24:07,563 - TutorialAgent - DEBUG - Loading content for topic: Asynchronous JavaScript
-2025-08-14 03:24:07,571 - TutorialAgent - DEBUG - Loading content for topic: JavaScript Basics
-2025-08-14 03:24:07,571 - TutorialAgent - DEBUG - Loading content for topic: DOM Manipulation
-2025-08-14 03:24:07,577 - TutorialAgent - DEBUG - Loading content for topic: Error Handling
-2025-08-14 03:24:07,583 - TutorialAgent - DEBUG - Loading content for topic: ES6+ Features
-2025-08-14 03:24:07,587 - TutorialAgent - DEBUG - Loading content for topic: Events and Event Handling
-2025-08-14 03:24:07,589 - TutorialAgent - DEBUG - Loading content for topic: Functions and Scope
-2025-08-14 03:24:07,595 - TutorialAgent - DEBUG - Loading content for topic: Modern JavaScript Development
-2025-08-14 03:24:07,599 - TutorialAgent - DEBUG - Loading content for topic: Objects and Arrays
-2025-08-14 03:24:07,601 - TutorialAgent - DEBUG - Loading content for topic: Working with APIs
-2025-08-14 03:24:07,601 - TutorialAgent - DEBUG - Content loaded successfully
-2025-08-14 03:24:07,601 - TutorialAgent - DEBUG - Updating progress for JavaScript
-2025-08-14 03:24:07,627 - TutorialAgent - DEBUG - Setting JavaScript card progress to 0
-2025-08-14 03:24:07,627 - TutorialAgent.Notifications - INFO - Success notification: Loaded JavaScript successfully!
-2025-08-14 03:24:07,637 - TutorialAgent - INFO - Successfully loaded content for JavaScript
-2025-08-14 03:24:09,393 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
-2025-08-14 03:24:20,229 - TutorialAgent - DEBUG - Language card clicked: Python
-2025-08-14 03:24:20,229 - TutorialAgent - INFO - Language selected: Python
-2025-08-14 03:24:20,229 - TutorialAgent - DEBUG - Setting C# card selection state to False
-2025-08-14 03:24:20,229 - TutorialAgent - DEBUG - Setting JavaScript card selection state to False
-2025-08-14 03:24:20,229 - TutorialAgent - DEBUG - Setting Python card selection state to True
-2025-08-14 03:24:20,422 - TutorialAgent - DEBUG - Loading content into viewer
-2025-08-14 03:24:20,422 - TutorialAgent - DEBUG - Clearing content viewer
-2025-08-14 03:24:20,425 - TutorialAgent - DEBUG - Loading content for topic: Advanced Concepts
-2025-08-14 03:24:20,425 - TutorialAgent - DEBUG - Loading content for topic: Python Basics
-2025-08-14 03:24:20,425 - TutorialAgent - DEBUG - Loading content for topic: Control Flow
-2025-08-14 03:24:20,436 - TutorialAgent - DEBUG - Loading content for topic: Data Structures
-2025-08-14 03:24:20,438 - TutorialAgent - DEBUG - Loading content for topic: Error Handling
-2025-08-14 03:24:20,443 - TutorialAgent - DEBUG - Loading content for topic: File Handling
-2025-08-14 03:24:20,447 - TutorialAgent - DEBUG - Loading content for topic: Functions and Modules
-2025-08-14 03:24:20,451 - TutorialAgent - DEBUG - Loading content for topic: Libraries and Packages
-2025-08-14 03:24:20,453 - TutorialAgent - DEBUG - Loading content for topic: Object-Oriented Programming
-2025-08-14 03:24:20,453 - TutorialAgent - DEBUG - Loading content for topic: Testing and Debugging
-2025-08-14 03:24:20,461 - TutorialAgent - DEBUG - Content loaded successfully
-2025-08-14 03:24:20,461 - TutorialAgent - DEBUG - Updating progress for Python
-2025-08-14 03:24:20,474 - TutorialAgent - DEBUG - Setting Python card progress to 0
-2025-08-14 03:24:20,474 - TutorialAgent.Notifications - INFO - Success notification: Loaded Python successfully!
-2025-08-14 03:24:20,485 - TutorialAgent - INFO - Successfully loaded content for Python
-2025-08-14 03:24:22,256 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
-2025-08-14 03:24:35,288 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
-2025-08-14 03:24:43,292 - TutorialAgent - ERROR - Error showing settings: SettingsDialog.__init__() takes 1 positional argument but 2 were given
-2025-08-14 03:24:43,293 - TutorialAgent.Notifications - ERROR - Error notification: Settings error: SettingsDialog.__init__() takes 1 positional argument but 2 were given
-2025-08-14 03:24:47,622 - TutorialAgent - INFO - Language selected: Python
-2025-08-14 03:24:47,622 - TutorialAgent - DEBUG - Setting C# card selection state to False
-2025-08-14 03:24:47,624 - TutorialAgent - DEBUG - Setting JavaScript card selection state to False
-2025-08-14 03:24:47,624 - TutorialAgent - DEBUG - Setting Python card selection state to True
-2025-08-14 03:24:47,814 - TutorialAgent - DEBUG - Loading content into viewer
-2025-08-14 03:24:47,817 - TutorialAgent - DEBUG - Clearing content viewer
-2025-08-14 03:24:47,817 - TutorialAgent - DEBUG - Loading content for topic: Advanced Concepts
-2025-08-14 03:24:47,821 - TutorialAgent - DEBUG - Loading content for topic: Python Basics
-2025-08-14 03:24:47,821 - TutorialAgent - DEBUG - Loading content for topic: Control Flow
-2025-08-14 03:24:47,828 - TutorialAgent - DEBUG - Loading content for topic: Data Structures
-2025-08-14 03:24:47,828 - TutorialAgent - DEBUG - Loading content for topic: Error Handling
-2025-08-14 03:24:47,836 - TutorialAgent - DEBUG - Loading content for topic: File Handling
-2025-08-14 03:24:47,836 - TutorialAgent - DEBUG - Loading content for topic: Functions and Modules
-2025-08-14 03:24:47,836 - TutorialAgent - DEBUG - Loading content for topic: Libraries and Packages
-2025-08-14 03:24:47,845 - TutorialAgent - DEBUG - Loading content for topic: Object-Oriented Programming
-2025-08-14 03:24:47,854 - TutorialAgent - DEBUG - Loading content for topic: Testing and Debugging
-2025-08-14 03:24:47,854 - TutorialAgent - DEBUG - Content loaded successfully
-2025-08-14 03:24:47,854 - TutorialAgent - DEBUG - Updating progress for Python
-2025-08-14 03:24:47,862 - TutorialAgent - DEBUG - Setting Python card progress to 0
-2025-08-14 03:24:47,862 - TutorialAgent.Notifications - INFO - Success notification: Loaded Python successfully!
-2025-08-14 03:24:47,884 - TutorialAgent - INFO - Successfully loaded content for Python
-2025-08-14 03:24:52,869 - TutorialAgent.TutorialDialog - INFO - Started tutorial: Welcome to Tutorial Agent
-2025-08-14 03:25:11,849 - TutorialAgent.ContentManager - DEBUG - User progress saved
-2025-08-14 03:25:11,856 - TutorialAgent - INFO - Application closed successfully
+2025-08-17 04:44:57,720 - TutorialAgent - INFO - Starting Tutorial Agent application
+2025-08-17 04:44:57,724 - TutorialAgent - INFO - Project root: C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent
+2025-08-17 04:44:57,724 - TutorialAgent - INFO - Assets directory: C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\assets\icons
+2025-08-17 04:44:57,866 - TutorialAgent.ContentManager - INFO - ContentManager initialized with content_dir: C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\content
+2025-08-17 04:44:57,866 - TutorialAgent - DEBUG - Content manager initialized
+2025-08-17 04:44:58,188 - TutorialAgent - DEBUG - Enhanced toolbar setup complete
+2025-08-17 04:44:58,196 - TutorialAgent - DEBUG - Enhanced status bar setup complete
+2025-08-17 04:44:58,227 - TutorialAgent.ContentManager - DEBUG - Loading languages from Python files
+2025-08-17 04:44:58,227 - TutorialAgent.ContentManager - WARNING - No content files found in C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\content\languages\cpp
+2025-08-17 04:44:58,278 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Async Programming
+2025-08-17 04:44:58,319 - TutorialAgent.ContentManager - DEBUG - Loaded topic: C# Basics
+2025-08-17 04:44:58,372 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Classes
+2025-08-17 04:44:58,421 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Collections
+2025-08-17 04:44:58,465 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Control Structures
+2025-08-17 04:44:58,499 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Data Types
+2025-08-17 04:44:58,542 - TutorialAgent.ContentManager - DEBUG - Loaded topic: File I/O (Input/Output)
+2025-08-17 04:44:58,586 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Inheritance
+2025-08-17 04:44:58,632 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Inheritance
+2025-08-17 04:44:58,685 - TutorialAgent.ContentManager - DEBUG - Loaded topic: LINQ (Language Integrated Query)
+2025-08-17 04:44:58,722 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Methods and Parameters
+2025-08-17 04:44:58,770 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Windows Forms
+2025-08-17 04:44:58,770 - TutorialAgent.ContentManager - DEBUG - Loaded language: C#
+2025-08-17 04:44:58,779 - TutorialAgent.ContentManager - WARNING - No content files found in C:\Users\Aryan\PycharmProjects\pythonProject\Tutorial_Agent\content\languages\java
+2025-08-17 04:44:58,852 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Asynchronous JavaScript
+2025-08-17 04:44:58,909 - TutorialAgent.ContentManager - DEBUG - Loaded topic: JavaScript Basics
+2025-08-17 04:44:58,964 - TutorialAgent.ContentManager - DEBUG - Loaded topic: DOM Manipulation
+2025-08-17 04:44:59,053 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Error Handling
+2025-08-17 04:44:59,113 - TutorialAgent.ContentManager - DEBUG - Loaded topic: ES6+ Features
+2025-08-17 04:44:59,165 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Events and Event Handling
+2025-08-17 04:44:59,228 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Functions and Scope
+2025-08-17 04:44:59,272 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Modern JavaScript Development
+2025-08-17 04:44:59,326 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Objects and Arrays
+2025-08-17 04:44:59,391 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Working with APIs
+2025-08-17 04:44:59,391 - TutorialAgent.ContentManager - DEBUG - Loaded language: JavaScript
+2025-08-17 04:44:59,435 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Advanced Concepts
+2025-08-17 04:44:59,484 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Python Basics
+2025-08-17 04:44:59,525 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Control Flow
+2025-08-17 04:44:59,561 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Data Structures
+2025-08-17 04:44:59,614 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Error Handling
+2025-08-17 04:44:59,658 - TutorialAgent.ContentManager - DEBUG - Loaded topic: File Handling
+2025-08-17 04:44:59,714 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Functions and Modules
+2025-08-17 04:44:59,759 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Libraries and Packages
+2025-08-17 04:44:59,801 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Object-Oriented Programming
+2025-08-17 04:44:59,847 - TutorialAgent.ContentManager - DEBUG - Loaded topic: Testing and Debugging
+2025-08-17 04:44:59,847 - TutorialAgent.ContentManager - DEBUG - Loaded language: Python
+2025-08-17 04:44:59,851 - TutorialAgent.ContentManager - INFO - Loaded 3 languages
+2025-08-17 04:44:59,851 - TutorialAgent - DEBUG - Found 3 languages
+2025-08-17 04:44:59,853 - TutorialAgent - DEBUG - Creating LanguageCard for C#
+2025-08-17 04:44:59,917 - TutorialAgent - DEBUG - Created language card for C#
+2025-08-17 04:44:59,917 - TutorialAgent - DEBUG - Creating LanguageCard for JavaScript
+2025-08-17 04:44:59,941 - TutorialAgent - DEBUG - Created language card for JavaScript
+2025-08-17 04:44:59,941 - TutorialAgent - DEBUG - Creating LanguageCard for Python
+2025-08-17 04:44:59,959 - TutorialAgent - DEBUG - Created language card for Python
+2025-08-17 04:44:59,959 - TutorialAgent - DEBUG - Initializing ProgressViewer
+2025-08-17 04:44:59,970 - TutorialAgent - INFO - Created sidebar with 3 language cards
+2025-08-17 04:45:01,940 - TutorialAgent - DEBUG - Initializing ContentViewer
+2025-08-17 04:45:01,944 - TutorialAgent - DEBUG - ContentViewer UI setup complete
+2025-08-17 04:45:02,008 - TutorialAgent - DEBUG - Professional code editor loaded
+2025-08-17 04:45:02,024 - TutorialAgent - DEBUG - Content area created successfully
+2025-08-17 04:45:02,026 - TutorialAgent - DEBUG - UI initialization complete
+2025-08-17 04:45:02,040 - TutorialAgent - INFO - MainWindow initialized successfully
+2025-08-17 04:45:02,316 - TutorialAgent - INFO - Application started successfully
+2025-08-17 04:45:02,320 - TutorialAgent - INFO - Application startup completed in 0.00 seconds
+2025-08-17 04:45:02,871 - TutorialAgent.TutorialDialog - INFO - Started tutorial: Welcome to Tutorial Agent
+2025-08-17 04:45:03,988 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-17 04:45:20,399 - TutorialAgent.TutorialDialog - INFO - Completed tutorial: Welcome to Tutorial Agent
+2025-08-17 04:46:20,994 - TutorialAgent - DEBUG - Language card clicked: Python
+2025-08-17 04:46:20,994 - TutorialAgent - INFO - Language selected: Python
+2025-08-17 04:46:20,995 - TutorialAgent - DEBUG - Setting C# card selection state to False
+2025-08-17 04:46:20,995 - TutorialAgent - DEBUG - Setting JavaScript card selection state to False
+2025-08-17 04:46:20,997 - TutorialAgent - DEBUG - Setting Python card selection state to True
+2025-08-17 04:46:21,227 - TutorialAgent - DEBUG - Loading content into viewer
+2025-08-17 04:46:21,227 - TutorialAgent - DEBUG - Clearing content viewer
+2025-08-17 04:46:21,232 - TutorialAgent - DEBUG - Loading content for topic: Advanced Concepts
+2025-08-17 04:46:21,238 - TutorialAgent - DEBUG - Loading content for topic: Python Basics
+2025-08-17 04:46:21,244 - TutorialAgent - DEBUG - Loading content for topic: Control Flow
+2025-08-17 04:46:21,244 - TutorialAgent - DEBUG - Loading content for topic: Data Structures
+2025-08-17 04:46:21,244 - TutorialAgent - DEBUG - Loading content for topic: Error Handling
+2025-08-17 04:46:21,244 - TutorialAgent - DEBUG - Loading content for topic: File Handling
+2025-08-17 04:46:21,258 - TutorialAgent - DEBUG - Loading content for topic: Functions and Modules
+2025-08-17 04:46:21,262 - TutorialAgent - DEBUG - Loading content for topic: Libraries and Packages
+2025-08-17 04:46:21,264 - TutorialAgent - DEBUG - Loading content for topic: Object-Oriented Programming
+2025-08-17 04:46:21,268 - TutorialAgent - DEBUG - Loading content for topic: Testing and Debugging
+2025-08-17 04:46:21,272 - TutorialAgent - DEBUG - Content loaded successfully
+2025-08-17 04:46:21,272 - TutorialAgent - DEBUG - Updating progress for Python
+2025-08-17 04:46:21,284 - TutorialAgent - DEBUG - Setting Python card progress to 0
+2025-08-17 04:46:21,286 - TutorialAgent.Notifications - INFO - Success notification: Loaded Python successfully!
+2025-08-17 04:46:21,313 - TutorialAgent - INFO - Successfully loaded content for Python
+2025-08-17 04:46:23,057 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-17 04:46:45,143 - TutorialAgent.Notifications - INFO - Success notification: Code executed successfully!
+2025-08-17 04:46:45,174 - TutorialAgent.Notifications - INFO - Success: Code executed successfully!
+2025-08-17 04:46:56,770 - TutorialAgent.CodeEditor - DEBUG - Auto-saving code editor content
+2025-08-17 04:46:56,779 - TutorialAgent.Notifications - INFO - Success notification: Code executed successfully!
+2025-08-17 04:46:56,802 - TutorialAgent.Notifications - INFO - Success: Code executed successfully!
+2025-08-17 04:47:31,703 - TutorialAgent.TutorialDialog - DEBUG - Tutorial welcome already completed, skipping
+2025-08-17 04:47:35,193 - TutorialAgent.TutorialDialog - DEBUG - Tutorial welcome already completed, skipping
+2025-08-17 04:47:36,567 - TutorialAgent.ContentManager - DEBUG - User progress saved
+2025-08-17 04:47:36,567 - TutorialAgent - INFO - Application closed successfully

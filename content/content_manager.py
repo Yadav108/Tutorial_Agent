@@ -161,8 +161,9 @@ class ContentManager:
         """Find the create function in a module."""
         # Try common function naming patterns
         possible_names = [
+            "create",  # New standard
             f"create_{file_name}_content",
-            f"create_{file_name}",
+            f"create_{file_name}",  
             f"get_{file_name}_content",
             f"get_{file_name}",
             "create_content",
@@ -177,7 +178,7 @@ class ContentManager:
 
         # If no standard function found, look for any function that returns a Topic
         for attr_name in dir(module):
-            if not attr_name.startswith('_'):
+            if not attr_name.startswith('_') and attr_name.startswith('create'):
                 attr = getattr(module, attr_name)
                 if callable(attr):
                     try:
@@ -271,11 +272,11 @@ class ContentManager:
                 description=language_info['description'],
                 topics=topics,
                 id=lang_name,
-                icon=language_info['icon'],
-                color=language_info['color'],
+                icon_path=language_info.get('icon', ''),
+                color_theme=language_info.get('color', '#007bff'),
                 learning_path=[topic.title.lower().replace(' ', '_') for topic in topics],
                 difficulty=DifficultyLevel.BEGINNER,
-                estimated_hours=max(1, sum(getattr(topic, 'estimated_time', 30) for topic in topics) // 60)
+                estimated_hours=max(1, sum(getattr(topic, 'estimated_time_minutes', 30) for topic in topics) // 60)
             )
 
             return language
@@ -354,6 +355,58 @@ class ContentManager:
             if not (hasattr(topic, 'title') and hasattr(topic, 'description')):
                 logger.warning(f"Invalid topic object from {py_file}")
                 return None
+
+            # Convert legacy topic to new format if needed
+            if hasattr(topic, 'to_new_topic'):
+                topic = topic.to_new_topic()
+            elif not hasattr(topic, 'id'):
+                # Convert old-style topic to new format
+                from .models import Topic as NewTopic
+                import uuid
+                
+                # Handle old exercises format
+                new_exercises = []
+                if hasattr(topic, 'exercises'):
+                    for ex in topic.exercises:
+                        if hasattr(ex, 'to_new_exercise'):
+                            new_exercises.append(ex.to_new_exercise())
+                        elif hasattr(ex, 'title') and hasattr(ex, 'description'):
+                            # Create new exercise with legacy data
+                            from .models import Exercise, DifficultyLevel
+                            difficulty_map = {
+                                "Beginner": DifficultyLevel.BEGINNER,
+                                "Intermediate": DifficultyLevel.INTERMEDIATE,
+                                "Advanced": DifficultyLevel.ADVANCED,
+                                "beginner": DifficultyLevel.BEGINNER,
+                                "intermediate": DifficultyLevel.INTERMEDIATE,
+                                "advanced": DifficultyLevel.ADVANCED
+                            }
+                            
+                            diff = getattr(ex, 'difficulty', 'Beginner')
+                            diff_enum = difficulty_map.get(diff, DifficultyLevel.BEGINNER)
+                            
+                            new_ex = Exercise(
+                                id=str(uuid.uuid4()),
+                                title=ex.title,
+                                description=ex.description,
+                                starter_code=getattr(ex, 'starter_code', ''),
+                                solution=getattr(ex, 'solution', ''),
+                                difficulty=diff_enum,
+                                hints=getattr(ex, 'hints', [])
+                            )
+                            new_exercises.append(new_ex)
+                
+                # Convert topic
+                topic = NewTopic(
+                    id=str(uuid.uuid4()),
+                    title=topic.title,
+                    description=topic.description,
+                    content=getattr(topic, 'content', ''),
+                    examples=getattr(topic, 'examples', []),
+                    exercises=new_exercises,
+                    best_practices=getattr(topic, 'best_practices', []),
+                    dependencies=getattr(topic, 'dependencies', [])
+                )
 
             # Cache the topic
             self.cache.set(cache_key, topic, py_file)

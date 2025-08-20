@@ -1,8 +1,9 @@
-# content/languages/python/basics.py
+"""Python basics tutorial content."""
 
-from content.models import Topic, Example, Exercise
+from content.legacy_models import Topic, Exercise  
+from content.models import Example
 
-def create_python_basics_content() -> Topic:
+def create() -> Topic:
     """Create and return Python basics tutorial content."""
     return Topic(
         title="Python Basics",
