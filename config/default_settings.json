@@ -1,0 +1,26 @@
+{
+  "editor": {
+    "font_family": "Consolas",
+    "font_size": 12,
+    "theme": "vscode_dark",
+    "show_line_numbers": true,
+    "word_wrap": false,
+    "tab_size": 4,
+    "auto_indent": true
+  },
+  "ui": {
+    "theme": "light",
+    "language": "en",
+    "window_maximized": false,
+    "window_width": 1400,
+    "window_height": 900
+  },
+  "learning": {
+    "auto_save_progress": true,
+    "show_progress_notifications": true,
+    "enable_achievements": true,
+    "preferred_languages": [
+      "python"
+    ]
+  }
+}
