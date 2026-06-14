@@ -138,28 +138,28 @@ python run.py --help
 ```
 Tutorial_Agent/
 ├── 📋 Project Configuration
-│   ├── run.py                    # 🚀 Main application launcher (enhanced)
-│   ├── __main__.py              # 🎯 Module entry point
-│   ├── setup_project.py         # ⚙️ Automated project setup
-│   ├── requirements.txt         # 📦 Dependencies
-│   └── .gitignore               # 🚫 Version control exclusions
+│   ├── run.py                    #  Main application launcher (enhanced)
+│   ├── __main__.py              #   Module entry point
+│   ├── setup_project.py         #   Automated project setup
+│   ├── requirements.txt         #   Dependencies
+│   └── .gitignore               #   Version control exclusions
 │
 ├── 📚 Core Application
-│   ├── tutorial_agent/          # 🏗️ Main package
+│   ├── tutorial_agent/          #   Main package
 │   │   ├── __init__.py
-│   │   ├── core/                # 🧠 Core business logic
-│   │   └── services/            # 🔧 Service layer
+│   │   ├── core/                #   Core business logic
+│   │   └── services/            #   Service layer
 │   │
-│   ├── gui/                     # 🖥️ User Interface
-│   │   ├── main_window.py       # 🏠 Main window (enhanced)
-│   │   ├── widgets/             # 🧩 Custom UI components
-│   │   ├── dialogs/             # 💬 Dialog windows
-│   │   └── helpers/             # 🛠️ UI utilities
+│   ├── gui/                     #  User Interface
+│   │   ├── main_window.py       #  Main window (enhanced)
+│   │   ├── widgets/             #  Custom UI components
+│   │   ├── dialogs/             #  Dialog windows
+│   │   └── helpers/             #  UI utilities
 │   │
-│   ├── content/                 # 📖 Learning Content
-│   │   ├── models.py            # 🏗️ Enhanced data models
-│   │   ├── content_manager.py   # 📚 Content management
-│   │   ├── languages/           # 🌐 Language-specific content
+│   ├── content/                 #  Learning Content
+│   │   ├── models.py            #  Enhanced data models
+│   │   ├── content_manager.py   #  Content management
+│   │   ├── languages/           #  Language-specific content
 │   │   │   ├── python/
 │   │   │   ├── javascript/
 │   │   │   ├── csharp/
@@ -167,64 +167,64 @@ Tutorial_Agent/
 │   │   │   └── cpp/
 │   │   └── exercises/           # 💪 Coding exercises
 │   │
-│   ├── database/                # 🗄️ Data Persistence
-│   │   ├── models/              # 📊 Database models
-│   │   ├── migrations/          # 🔄 Schema changes
-│   │   └── db_handler.py        # 🔧 Database operations
+│   ├── database/                #  Data Persistence
+│   │   ├── models/              #  Database models
+│   │   ├── migrations/          #  Schema changes
+│   │   └── db_handler.py        #  Database operations
 │   │
-│   ├── services/                # 🔧 Business Services
-│   │   ├── auth_service.py      # 🔐 Authentication
-│   │   ├── content_service.py   # 📚 Content delivery
-│   │   ├── progress_service.py  # 📊 Progress tracking
-│   │   └── quiz_service.py      # ❓ Quiz management
+│   ├── services/                #  Business Services
+│   │   ├── auth_service.py      #  Authentication
+│   │   ├── content_service.py   #  Content delivery
+│   │   ├── progress_service.py  #  Progress tracking
+│   │   └── quiz_service.py      #  Quiz management
 │   │
-│   └── utils/                   # 🛠️ Utilities
-│       ├── error_handler.py     # 🚨 Enhanced error handling
-│       ├── logging_setup.py     # 📝 Logging configuration
-│       ├── notifications.py     # 📢 User notifications
-│       └── helpers/             # 🧰 Helper functions
+│   └── utils/                   #  Utilities
+│       ├── error_handler.py     #  Enhanced error handling
+│       ├── logging_setup.py     #  Logging configuration
+│       ├── notifications.py     #  User notifications
+│       └── helpers/             #  Helper functions
 │
 ├── 🎨 Assets & Configuration
-│   ├── assets/                  # 🎭 Application assets
-│   │   ├── icons/               # 🎯 Language & UI icons
-│   │   ├── images/              # 🖼️ Images & graphics
-│   │   └── styles/              # 🎨 Themes & styling
+│   ├── assets/                  #  Application assets
+│   │   ├── icons/               #  Language & UI icons
+│   │   ├── images/              #  Images & graphics
+│   │   └── styles/              #  Themes & styling
 │   │
-│   ├── config/                  # ⚙️ Configuration
-│   │   ├── settings.py          # 📋 Basic settings
-│   │   ├── settings_manager.py  # 🔧 Advanced settings management
-│   │   ├── constants.py         # 📐 Application constants
+│   ├── config/                  #  Configuration
+│   │   ├── settings.py          #  Basic settings
+│   │   ├── settings_manager.py  #  Advanced settings management
+│   │   ├── constants.py         #  Application constants
 │   │   └── default_settings.json
 │   │
-│   ├── logs/                    # 📝 Application logs
-│   ├── cache/                   # 🗄️ Cached data
-│   └── data/                    # 💾 User data
+│   ├── logs/                    #  Application logs
+│   ├── cache/                   #  Cached data
+│   └── data/                    #  User data
 │
-├── 🧪 Quality Assurance
-│   ├── tests/                   # 🧪 Test suite
+├── Quality Assurance
+│   ├── tests/                   #  Test suite
 │   │   ├── test_gui/
 │   │   ├── test_services/
 │   │   ├── test_utils/
 │   │   └── conftest.py
 │   │
-│   └── docs/                    # 📚 Documentation
+│   └── docs/                    #  Documentation
 │       ├── user_guide/
 │       ├── developer_guide/
 │       └── api/
 │
-└── 🚀 Development
-    └── venv/                    # 🐍 Python virtual environment
+└── Development
+    └── venv/                    # Python virtual environment
 ```
 
-### 🏗️ Architecture Highlights
+###  Architecture Highlights
 
-- **🧩 Modular Design**: Cleanly separated concerns with service layers
-- **🎯 Type Safety**: Full type hints throughout the codebase
-- **🚨 Error Handling**: Comprehensive error handling and user feedback
-- **📊 Configuration Management**: Advanced settings with validation
-- **🧪 Testing Ready**: Structured for comprehensive testing
-- **📝 Logging**: Professional logging with rotation and levels
-- **🔧 Extensible**: Easy to add new languages and features
+- ** Modular Design**: Cleanly separated concerns with service layers
+- ** Type Safety**: Full type hints throughout the codebase
+- ** Error Handling**: Comprehensive error handling and user feedback
+- ** Configuration Management**: Advanced settings with validation
+- ** Testing Ready**: Structured for comprehensive testing
+- ** Logging**: Professional logging with rotation and levels
+- ** Extensible**: Easy to add new languages and features
 
 ## Usage
 
